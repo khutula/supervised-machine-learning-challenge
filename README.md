@@ -51,10 +51,10 @@ I would expect the Random Forst Classifier to perform better on the unscaled dat
 #### Unscaled Models Comparison
 On unscaled data, the Random Forest Classifier performed better. As stated above, it did perform some overfitting, but it was better able to determine the importance of each feature rather than weighting the importance based on the scale of the feature as Logisitc Regression did.
 
-![image](https://user-images.githubusercontent.com/82410966/139739157-7fb8c06d-0d57-4582-910d-2cbc9fdfb143.png)
-
 #### Scaled Models Prediction
 I would expect the Logistic Regression to perform better on the scaled data. Now that the data has been scaled, one of the major drawbacks to Logistic Regression (being that it weights features based on their scale rather than true importance) has been eliminated. I would expect Random Forst Classifier to perform generally the same on the scaled data, since it generally isn't very susceptible to scaling differences in the first place, and I would expect it to again show some overfitting.
+
+![image](https://user-images.githubusercontent.com/82410966/139739157-7fb8c06d-0d57-4582-910d-2cbc9fdfb143.png)
 
 #### Scaled Models Comparison
 On scaled data, the Logistic Regression performed much better. As stated above, removing issues with weighting features due to unscaled data has provided Logistic Regression with a clearer picture without pitfalling into overfitting. Random Forest Classifier overfitted again and as expected, performed generally the same as the unscaled data.
