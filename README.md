@@ -34,7 +34,7 @@ This project uses:
 <a name="files"></a>
 ### Files & Links
 
-* [Credit Risk Evaluator Notebook]("Credit Risk Evaluator.ipynb"): GeoJSON data used for my map (earthquakes over last 30 days with a minimum magnitude of 4.5)
+* [Credit Risk Evaluator Notebook]("Credit_Risk_Evaluator.ipynb"): GeoJSON data used for my map (earthquakes over last 30 days with a minimum magnitude of 4.5)
 * [Raw Data Transformation](Resources/Generator): this raw data and generator file were provided in order to create the cleaner data files for use in model making
 * [Train Data](Resources/2019loans.csv): 2019 data used to train our models
 * [Test Data](Resources/2020Q1loans.csv): 2020 Q1 data used to test the accuracy of our models
@@ -46,8 +46,12 @@ This project uses:
 #### Unscaled Models Prediction
 I would expect the Random Forst Classifier to perform better on the unscaled data. Even though it is prone to overfitting, RFC is able to determine how much each feature contributes to the prediction, whereas Logistic Regression is going to see all features and weight them based on their scale, rather than their true value to the prediction.
 
+![image](https://user-images.githubusercontent.com/82410966/139739114-b0c2694e-9151-404f-844c-0d94f86a272f.png)
+
 #### Unscaled Models Comparison
 On unscaled data, the Random Forest Classifier performed better. As stated above, it did perform some overfitting, but it was better able to determine the importance of each feature rather than weighting the importance based on the scale of the feature as Logisitc Regression did.
+
+![image](https://user-images.githubusercontent.com/82410966/139739157-7fb8c06d-0d57-4582-910d-2cbc9fdfb143.png)
 
 #### Scaled Models Prediction
 I would expect the Logistic Regression to perform better on the scaled data. Now that the data has been scaled, one of the major drawbacks to Logistic Regression (being that it weights features based on their scale rather than true importance) has been eliminated. I would expect Random Forst Classifier to perform generally the same on the scaled data, since it generally isn't very susceptible to scaling differences in the first place, and I would expect it to again show some overfitting.
