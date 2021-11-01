@@ -34,7 +34,7 @@ This project uses:
 <a name="files"></a>
 ### Files & Links
 
-* [Credit Risk Evaluator Notebook]("Credit_Risk_Evaluator.ipynb"): GeoJSON data used for my map (earthquakes over last 30 days with a minimum magnitude of 4.5)
+* [Credit Risk Evaluator Notebook](Credit_Risk_Evaluator.ipynb): GeoJSON data used for my map (earthquakes over last 30 days with a minimum magnitude of 4.5)
 * [Raw Data Transformation](Resources/Generator): this raw data and generator file were provided in order to create the cleaner data files for use in model making
 * [Train Data](Resources/2019loans.csv): 2019 data used to train our models
 * [Test Data](Resources/2020Q1loans.csv): 2020 Q1 data used to test the accuracy of our models
